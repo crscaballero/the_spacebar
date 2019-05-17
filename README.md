@@ -24,6 +24,8 @@ Installing
     `composer require server`
     `./bin/console server:run`
 
+note: sometimes you cgoing to need clean cache with this command `./bin/console cache:clear`
+
 Package Installed
 -----------------
 - Routes
@@ -40,5 +42,5 @@ Package Installed
         `composer unpack debug`
 - Assets
     `composer require asset`
-- MnpMarkdownBundle
+- KnpMarkdownBundle
     `composer require knplabs/knp-markdown-bundle`
