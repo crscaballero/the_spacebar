@@ -6,6 +6,8 @@ Course Basic Symfone 4 from site SymfonyCasts
 
 This a simple project, just following the instruction of the course for learn.
 Source [SymfoneCast Stellar Development with Symfony 4](https://symfonycasts.com/screencast/symfony).
+Source [SymfoneCast Symfony 4 Fundamentals: Services, Config & Environments
+](https://symfonycasts.com/screencast/symfony-fundamentals).
 
 Installing
 ----------
@@ -22,9 +24,8 @@ Installing
     `composer require server`
     `./bin/console server:run`
 
-
 Package Installed
-----------
+-----------------
 - Routes
     `composer require annotations`
 - Security Checker
@@ -39,3 +40,5 @@ Package Installed
         `composer unpack debug`
 - Assets
     `composer require asset`
+- MnpMarkdownBundle
+    `composer require knplabs/knp-markdown-bundle`
