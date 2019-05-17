@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use Psd\Log\LoggerInterface;
+use Psr\Log\LoggerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -39,11 +39,11 @@ class ArticleController extends AbstractController{
 	/**
 	 * @Route("/news/{slug}/heart", name="article_toggle_heart", methods={"POST"})
 	*/
-	public function toggleArticleHeart($slug, LoggerInterface $logged)
+	public function toggleArticleHeart($slug, LoggerInterface $logger)
 	{
 		//TODO - Acctually hear/unhear the article!
 
-		$logger->info('Article is being hearted');
+		$logger->info('Article is being hearted!');
 		return new JsonResponse(['hearts' => rand(5, 100)]);
 	}
 
