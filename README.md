@@ -44,3 +44,5 @@ Package Installed
     `composer require asset`
 - KnpMarkdownBundle
     `composer require knplabs/knp-markdown-bundle`
+-Slack BUndle
+    `composer require nexylan/slack-bundle php-http/guzzle6-adapter:1.1.1`
