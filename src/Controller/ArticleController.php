@@ -8,7 +8,17 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Psr\Log\LoggerInterface;
 use App\Service\MarkdownHelper;
 
-class ArticleController extends AbstractController{
+class ArticleController extends AbstractController
+{
+	/**
+	 * Currently unused: just showing a controller with a constructor!
+	 */
+	private $isDebug;
+
+	public function __construct(bool $isDebug)
+	{
+		$this->isDebug = $isDebug;
+	}
 
 	/**
 	* @Route("/", name="app_homepage")
