@@ -6,6 +6,8 @@ Course Basic Symfone 4 from site SymfonyCasts
 
 This a simple project, just following the instruction of the course for learn.
 Source [SymfoneCast Stellar Development with Symfony 4](https://symfonycasts.com/screencast/symfony).
+Source [SymfoneCast Symfony 4 Fundamentals: Services, Config & Environments
+](https://symfonycasts.com/screencast/symfony-fundamentals).
 
 Installing
 ----------
@@ -22,9 +24,10 @@ Installing
     `composer require server`
     `./bin/console server:run`
 
+note: sometimes you cgoing to need clean cache with this command `./bin/console cache:clear`
 
 Package Installed
-----------
+-----------------
 - Routes
     `composer require annotations`
 - Security Checker
@@ -39,3 +42,9 @@ Package Installed
         `composer unpack debug`
 - Assets
     `composer require asset`
+- KnpMarkdownBundle
+    `composer require knplabs/knp-markdown-bundle`
+- Slack BUndle
+    `composer require nexylan/slack-bundle php-http/guzzle6-adapter:1.1.1`
+- Maker Bundle
+    `composer require maker --dev`
