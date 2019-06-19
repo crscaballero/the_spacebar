@@ -9,11 +9,19 @@ Source [SymfoneCast Stellar Development with Symfony 4](https://symfonycasts.com
 Source [SymfoneCast Symfony 4 Fundamentals: Services, Config & Environments
 ](https://symfonycasts.com/screencast/symfony-fundamentals).
 
-Installing
+Deployment
 ----------
+1. Clone proyect (it assume you have previously installed git)<br />
+    `git clone https://github.com/crscaballero/the_spacebar.git`
+2. Start proyect<br />
+    `cd the_spacebar`<br />
+    `php -S 127.0.0.1:8000 -t public`
+
+Instructions (done to create it)
+--------------------------------
 
 1. Download and install Composer
-2. Update COmposer<br />
+2. Update Composer<br />
     `composer self-update`
 3. Install Symfony and create project<br />
     `composer create-project symfony/skeleton the_spacebar`
@@ -24,7 +32,7 @@ Installing
     `composer require server`<br />
     `./bin/console server:run`
 
-note: sometimes you cgoing to need clean cache with this command `./bin/console cache:clear`
+note: sometimes you going to need clean cache with this command `./bin/console cache:clear`
 
 Package Installed
 -----------------
