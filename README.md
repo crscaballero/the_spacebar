@@ -11,10 +11,11 @@ Source [SymfoneCast Symfony 4 Fundamentals: Services, Config & Environments
 
 Deployment
 ----------
-1. Clone proyect (it assume you have previously installed git)<br />
+1. Clone project (it assume you have previously installed git)<br />
     `git clone https://github.com/crscaballero/the_spacebar.git`
-2. Start proyect<br />
-    `cd the_spacebar`<br />
+2. Go to project<br />
+    `cd the_spacebar`
+3. Start project<br />
     `php -S 127.0.0.1:8000 -t public`
 
 Instructions (done to create it)
